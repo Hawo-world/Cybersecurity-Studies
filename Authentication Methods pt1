@@ -1,0 +1,13 @@
+### Comp TIA A+ 220-1102 - 2.2
+
+## RADIUS (Remote Authentication Dial-in User Service)
+# • One of the more common AAA protocols
+#      - AAA: Authentication, Authorization, Accounting 
+# • Supported on a wide variety of platforms and devices 
+# • Not just for dial-in
+
+## Centralize authentication for users 
+# • Routers, switches, firewalls
+# • Server authentication 
+# • Remote VPN access
+# • 802.1X network access
