@@ -1,6 +1,7 @@
 ### Comp TIA A+ 220-1102 - 2.2
 
 ### RADIUS (Remote Authentication Dial-in User Service)
+
 # • One of the more common AAA protocols
 #      - AAA: Authentication, Authorization, Accounting 
 # • Supported on a wide variety of platforms and devices 
@@ -15,6 +16,57 @@
 ## RADIUS services available on almost any server operating system
 
 ### TACACS -> Terminal Access Controller
+
 # Access-Control System
+# • typically associated with CISCO devices
 # • Remote autheauthentication protocol
 # • Created to control access to dial-up lines to ARPANET
+
+## TACACS+ 
+
+# • the latest version of TACACS 
+# • typically associated with CISCO devices
+# • More authentication requests and response codes
+# • Released as an open standard in 1993 
+
+
+### Kerberos (Windows)
+
+## Network authentication protocol
+# • supports single sign on 
+# • No need to re-authenticate to everything
+# • Mutual authentication - the client and the server 
+# • protects against on-path or replay attacks
+## Standard since the 1980s
+# - Developed by the Massachusetts Institute of Technology (MIT)
+
+## Microsoft starting using kerberos in Windows 2000
+# • when it started to get popular
+# • based on Kerberos 5.0 open standard
+# • Compatable with other operating systems and devices 
+
+## SSO with Kerberos
+# Authentication one time
+# • lots of backend ticketing
+# • cryptographic tickets (like a ticket pass or school ID)
+## No constant username and password input 
+# - you save time
+## Only works with kerberos
+# - Not everything is Kerberos-friendly
+
+### Which method to use? 
+# Many different ways to communicate to an authentication server 
+# - more than a simple log in process
+
+## often determined but what is at hand
+# - VPN concentrator can talk to a RADIUS server
+## TACACS+
+# - probably a Cisco device
+## Kerberos
+# - probably a Microsoft network
+
+
+### Multi-factor authentication (MFA)
+# something you are, have, know, do, and somewhere 
+
+
