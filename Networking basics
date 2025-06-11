@@ -1,0 +1,12 @@
+## TCP/IP (transmission, control, protocol) & (internet protocol)
+
+# - think of it as a cake with many layers. ex: application: http port 80 & smtp, transport: tcp & udp, internet, network)
+# • after the application layer gets the data from whatever program, it talks to the transport layer using something called a "port". 
+# • Once TCP gets the data, it chops it up into small packets so they can individually take the quickest route over the internet to get to their destination.
+# • to make sure the receiver correctly puts the package back together, it includes a "heather" on each package like instructions 
+# • packets are then pushed onto thr "internet layer" | used the IP (internet protocol) to attach both the origin and destination of the IP addresses. 
+# • then sent to the final network layer | handles things like Mac addressing.
+# - streamlines things further | faster to break them apart before sending to avoid traffic 
+#
+#
+#
