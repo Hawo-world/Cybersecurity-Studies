@@ -1,3 +1,6 @@
+### 12 most common types of cyberattacks 
+# study notes | crowdstrike.com
+
 ## 1) Malware 
 # - malicious software - is any program or code that is created with the intent to do harm to a computer, network, or server. 
 # - Fileless malware does not require an attacker to install any code on a targets system, making it harder to detect.
@@ -16,16 +19,16 @@
 ## 5) Identity-based attacks 
 # * Extremely hard to detect. when a valid users credentials have been compromised and an adversary is masquerading as that user, it is often very difficult to differentiate between the user's typical behavior and that of the hacker using traditional security measures and tools.
 # * Common identity-based attacks: 
-# - Downgrade Attacks) Adversaries take advantage of a systems backward compatibility to force it into less secure modes of operation, such as forcing a user to go into a HTTP version of a website instead of HTTPS.
-# - Brute Force) Trial-and-Error method to systematically guess login infor, credentials, and encryption keys --- until they finally guess correctly.
-# - Password Spraying) Threat actor using a single commin password against multiple accounts on the same application. this avoids the account lockouts that typically occur when an attacker uses brute force attack method.
-# - Credential Stuffing) since people often use the same user ID and password across multiple accounts. the threat actor possessing the credentials for one account may be able to grant access to ther unrelated accounts.
-# - Credential Harvesting) Gathering credentials to then access systems or to sell it on the dark web.
-# - Silver Ticket Attack) a forged authentication ticket often created when an attacker steals an account password. a forged service ticket is encrypted and enables access to resources for the specific targeted by the silver ticket attack.
-# - Golden Ticket Attack) adversaries attempt to gain unlimited access to an organizations domain by accessing user data stored in microsoft active directory. the attacker exploits vulnerabilities in the Kerberos identity authentication protocol, allowing them to bypass authentication methods.
-# - Pass-the-Hash) - (PTH) - when ad adversary steals a "hashed" user credentisl and uses it to create a new user session on the same network. it does not require the attacker to knoe or crack the password to gain access to the system. Rather, it uses a stored version of the password to initiate a new session
-# - Man-in-the-middle - (MITM) - the attacker eavesdrops on a conversation between two targets with the goal of collecting personal data, passwords or banking details, and/or to convince the victem to take an action such as changing login credentials, completing a transaction or initiating a transfer of funds.
-# - Kerberoasting) post-exploitation attack technique that attempts to crack the password of a service account within the Active Directory (AD) environment. an adversary masquerades as an account user with a service principle name (SPN) and requests a ticket, which contains an encrypted password.
+#          - Downgrade Attacks) Adversaries take advantage of a systems backward compatibility to force it into less secure modes of operation, such as forcing a user to go into a HTTP version of a website instead of HTTPS.
+#          - Brute Force) Trial-and-Error method to systematically guess login infor, credentials, and encryption keys --- until they finally guess correctly.
+#          - Password Spraying) Threat actor using a single commin password against multiple accounts on the same application. this avoids the account lockouts that typically occur when an attacker uses brute force attack method.
+#          - Credential Stuffing) since people often use the same user ID and password across multiple accounts. the threat actor possessing the credentials for one account may be able to grant access to ther unrelated accounts.
+#          - Credential Harvesting) Gathering credentials to then access systems or to sell it on the dark web.
+#          - Silver Ticket Attack) a forged authentication ticket often created when an attacker steals an account password. a forged service ticket is encrypted and enables access to resources for the specific targeted by the silver ticket attack.
+#          - Golden Ticket Attack) adversaries attempt to gain unlimited access to an organizations domain by accessing user data stored in microsoft active directory. the attacker exploits vulnerabilities in the Kerberos identity authentication protocol, allowing them to bypass authentication methods.
+#          - Pass-the-Hash) - (PTH) - when ad adversary steals a "hashed" user credentisl and uses it to create a new user session on the same network. it does not require the attacker to knoe or crack the password to gain access to the system. Rather, it uses a stored version of the password to initiate a new session
+#          - Man-in-the-middle - (MITM) - the attacker eavesdrops on a conversation between two targets with the goal of collecting personal data, passwords or banking details, and/or to convince the victem to take an action such as changing login credentials, completing a transaction or initiating a transfer of funds.
+#          - Kerberoasting) post-exploitation attack technique that attempts to crack the password of a service account within the Active Directory (AD) environment. an adversary masquerades as an account user with a service principle name (SPN) and requests a ticket, which contains an encrypted password.
 
 
 ## 6) Code Injection Attacks
@@ -37,4 +40,14 @@
 #          - Data Poisoning) intentionally compromises a training dataset used by an artificial intelligence or machine learning model to manipulate the operation of that model. when dataset is manipulated during the training phase, the adversary can introduce biases, intentionally create erroneous outputs, introduce vulnerabilities, or othrwise influence predictive capabilities of the model.
 
 ## 7) Supply chain attacks 
-# 
+# - Targets a trusted third-party vendor who offers services or software vital to he supply chain. 
+#      - Software suppy chain attacks inject malicious code into an application in order to infect all users of an app
+#      - Hardware supply chain attacks compromise physical components for the same purpose. Software supply chains are particularly vulnerable because modern software is not written from scratch: rather, it involves many off-the-shelf components, such as third-party APIs, open source code and proprietary code from software vendors.
+
+## 8) Social Engineering attacks
+# - psychological tactics to manipulate people into taking a desired action. through the use of powerful motivatorss like love, money, fear, and status, attackers can gather sensitive information that they can later use to either extort the organization or leverage such information for a competitive advantage.
+# Examples: Pretexting, Business email compromise (BEC), Disinformation campaiign, Quid Pro Quo, Honeytrap, Tailgating/piggybacking.
+
+
+
+
