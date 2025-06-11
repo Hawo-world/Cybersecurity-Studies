@@ -53,6 +53,14 @@
 # - be in malicious nature. Financial gain.
 # - not in malicious nature. neglegent.
 
+## 10) DNS tunneling
+# - leverages domain name system (DNS) queries and responses to bypass traditional security measures and transmit data and code within the network.
+# - Once infeccted, the hacker can freely engage in command-and-control activities. gives the hacker a route to unleash malware/extract data/IP/sensitive data.
 
+## 11) ioT-based attacks
+# - an internet of things (iot) - any cyber attack that targets an iot device or network. consume control over the device, steal data, join a group of infected devices to create a botnet to launch DoS or DDos.
 
+## 12) AI-powered attacks 
+# - as professionals leverage AI and ML to protect their online enviroment, attackers also leverage those tools to get access to a network or steal sensitive information.
+# - Adversarial AI/ML, Dark AI, Deepfake, AI-generated social engineering
 
