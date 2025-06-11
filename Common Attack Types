@@ -12,25 +12,29 @@
 ## 4) Spoofing
 # - is a technique when the cybercriminal disguises themself as a known or trusted source. the adversary is then able to engage with the target and access thier system, with the ultimate goal of stealing information, extorting money, or installing harmful malware.
 
+
 ## 5) Identity-based attacks 
-# - Extremely hard to detect. when a valid users credentials have been compromised and an adversary is masquerading as that user, it is often very difficult to differentiate between the user's typical behavior and that of the hacker using traditional security measures and tools.
-# - Common identity-based attacks: 
-# * Downgrade Attacks) Adversaries take advantage of a systems backward compatibility to force it into less secure modes of operation, such as forcing a user to go into a HTTP version of a website instead of HTTPS.
-# * Brute Force) Trial-and-Error method to systematically guess login infor, credentials, and encryption keys --- until they finally guess correctly.
-# * Password Spraying) Threat actor using a single commin password against multiple accounts on the same application. this avoids the account lockouts that typically occur when an attacker uses brute force attack method.
-# * 
-# * 
-# * 
-# * 
-# *
-# * 
-# *
+# * Extremely hard to detect. when a valid users credentials have been compromised and an adversary is masquerading as that user, it is often very difficult to differentiate between the user's typical behavior and that of the hacker using traditional security measures and tools.
+# * Common identity-based attacks: 
+# - Downgrade Attacks) Adversaries take advantage of a systems backward compatibility to force it into less secure modes of operation, such as forcing a user to go into a HTTP version of a website instead of HTTPS.
+# - Brute Force) Trial-and-Error method to systematically guess login infor, credentials, and encryption keys --- until they finally guess correctly.
+# - Password Spraying) Threat actor using a single commin password against multiple accounts on the same application. this avoids the account lockouts that typically occur when an attacker uses brute force attack method.
+# - Credential Stuffing) since people often use the same user ID and password across multiple accounts. the threat actor possessing the credentials for one account may be able to grant access to ther unrelated accounts.
+# - Credential Harvesting) Gathering credentials to then access systems or to sell it on the dark web.
+# - Silver Ticket Attack) a forged authentication ticket often created when an attacker steals an account password. a forged service ticket is encrypted and enables access to resources for the specific targeted by the silver ticket attack.
+# - Golden Ticket Attack) adversaries attempt to gain unlimited access to an organizations domain by accessing user data stored in microsoft active directory. the attacker exploits vulnerabilities in the Kerberos identity authentication protocol, allowing them to bypass authentication methods.
+# - Pass-the-Hash) - (PTH) - when ad adversary steals a "hashed" user credentisl and uses it to create a new user session on the same network. it does not require the attacker to knoe or crack the password to gain access to the system. Rather, it uses a stored version of the password to initiate a new session
+# - Man-in-the-middle - (MITM) - the attacker eavesdrops on a conversation between two targets with the goal of collecting personal data, passwords or banking details, and/or to convince the victem to take an action such as changing login credentials, completing a transaction or initiating a transfer of funds.
+# - Kerberoasting) post-exploitation attack technique that attempts to crack the password of a service account within the Active Directory (AD) environment. an adversary masquerades as an account user with a service principle name (SPN) and requests a ticket, which contains an encrypted password.
 
 
-#
-#
-#
-#
-#
-#
+## 6) Code Injection Attacks
+# - injecting malicious code into a vulnerable computer or network to change its course of action.
+# * Type of code injection attacks:
+#          - SQL) leverages system vulnerabilities to inject malicious SQL statements into a data-driven application, which then allows the hacker to extract information from a database. hackers use SQL injection techniques to alter, steal, or erase applications database data.
+#          - Cross-Site Scripting (XSS) - within ligitimate website. the code launches as an infected script in the users web browser, enabling the attacker to steal sensitive information or impersonate the userl web forums, message boards, blogs, and other websites that allow users to post their own content are the most susceptible to XSS attacks.
+#          - Malvertising) leverage other techniques such as SEO poisoning, to carry out the attack. begins by breaching a third-party server, which allowd the cybercriminsl to inject malicious code within a display ad or some element thereof, such as a banner as copy, creative imagery or video content. once clicked by a website visitor, the corrupted code within the ad will install malware or adware on the users computer.
+#          - Data Poisoning) intentionally compromises a training dataset used by an artificial intelligence or machine learning model to manipulate the operation of that model. when dataset is manipulated during the training phase, the adversary can introduce biases, intentionally create erroneous outputs, introduce vulnerabilities, or othrwise influence predictive capabilities of the model.
 
+## 7) Supply chain attacks 
+# 
