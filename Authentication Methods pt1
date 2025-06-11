@@ -70,3 +70,13 @@
 # something you are, have, know, do, and somewhere 
 
 
+### What is Authentication? Definition & Examples
+# Sudy Notes | Microsoft.com
+
+# Identiication: username
+# Authentication; Password (only the user is supposed to know) | token device, biometrics 
+# Authorization: system verifies that the user has permission to the system that they're attempting to access.
+
+## why is authentication important?
+# Data breach or exfiltration, installation of mlware-ransomware, noncompliance with regional or industry data privacy regulations.
+## 
