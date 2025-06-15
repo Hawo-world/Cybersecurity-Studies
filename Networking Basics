@@ -13,10 +13,27 @@
 # • DNS was created as a way for humans to talk to computers. Resolves names to numbers/ resolves domain names to IP addresses.
 # • instead of typing "yahoo.com" into web browser, you could type in the IP addresses. (will pull up the same thing) | works like a phone book 
 # steps that DNS takes:(Resolver).
-#    • 1) if the DNS cannot find the IP addresses, it will send to next level "Resolver" (ISP-internet service protocol) • 2) if Resolver cannot find IP addresses, it will send to next level "Root Server" (top or the root of the DNS hierarchy) - 13 sets of these room servers strategically placed around the world, operated by 12 different organizations, each set has their own unique I.P. address aswell.
+#    • 1) if the DNS cannot find the IP addresses, it will send to next level "Resolver" (ISP-internet service protocol) • 2) if Resolver cannot find IP addresses, •
+#    • 3a) it will send to next level "Root Server" (top or the root of the DNS hierarchy) - 13 sets of these room servers strategically placed around the world, operated by 12 different organizations, each set has their own unique I.P. address aswell.
+#    • 3b) the root server wont know the IP addresses but will know where to send the Resolver: TLD server (top level domain) for a ".com" domain.
+#    • 4) the Resolver will then ask the TLD. |TLD stores address information for top level domains: .com, .net, .org etc.
+#    • 5) if TLD doesnt know, it will send to the ANS (authoritative name server), final server/ authority. | responsible for knowing everything about the domain |
+
 #
 #
 #
-s
+#
+#
+#
+#
+#
+#
+#
+#
+
+#
+#
+#
+#
 #
 #
