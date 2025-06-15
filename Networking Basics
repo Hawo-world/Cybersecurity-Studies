@@ -7,6 +7,16 @@
 # • packets are then pushed onto thr "internet layer" | used the IP (internet protocol) to attach both the origin and destination of the IP addresses. 
 # • then sent to the final network layer | handles things like Mac addressing.
 # - streamlines things further | faster to break them apart before sending to avoid traffic 
+
+## DNS (domain name system)
+# • computers use numbers to talk to and identify eachother (IP addresses). humans use letters.
+# • DNS was created as a way for humans to talk to computers. Resolves names to numbers/ resolves domain names to IP addresses.
+# • instead of typing "yahoo.com" into web browser, you could type in the IP addresses. (will pull up the same thing) | works like a phone book 
+# steps that DNS takes:(Resolver).
+#    • 1) if the DNS cannot find the IP addresses, it will send to next level "Resolver" (ISP-internet service protocol) • 2) if Resolver cannot find IP addresses, it will send to next level "Root Server" (top or the root of the DNS hierarchy) - 13 sets of these room servers strategically placed around the world, operated by 12 different organizations, each set has their own unique I.P. address aswell.
 #
+#
+#
+s
 #
 #
