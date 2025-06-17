@@ -19,13 +19,13 @@
 #    • 4) the Resolver will then ask the TLD. |TLD stores address information for top level domains: .com, .net, .org etc.
 #    • 5) if TLD doesnt know, it will send to the ANS (authoritative name server), final server/ authority. | responsible for knowing everything about the domain |
 
-#
-#
-#
-#
-#
-#
-#
+## Portsit specifically determines which program or service on a computer or server that is going to be used (web page, FTP, email) 
+# what is a port? | A port is NOT a physical connection. it is a LOGICAL CONNECTION  that's used by programs and services to exchange information. | 
+# • Ports will have a unique number that identified them: that number ranges from 0-65535 | common port numbers: 80 & 443 = web pages (HTTP, HTTPS), 21 = FTP (file transfer protocol), 25 = email (SMTP)
+# • after port is allways associated with an IP address. they work together to exchange information on a network. ex layout: IP address -> 66.94.43.13 + :21 <- port # 
+# • if you want to connect to a server over the internet: an IP address determines the geographical location of that server, then a PORT  number determines which service or program on that server it wants to use  (web page. FTP, email, etc.) 
+# • Very common port that everybody uses almost daily: port 80. associated with HTTP (Hypertext Transfer Protocol), which is web pages. 
+# 
 #
 #
 #
