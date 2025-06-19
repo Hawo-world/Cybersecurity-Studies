@@ -25,7 +25,24 @@
 # • after port is allways associated with an IP address. they work together to exchange information on a network. ex layout: IP address -> 66.94.43.13 + :21 <- port # 
 # • if you want to connect to a server over the internet: an IP address determines the geographical location of that server, then a PORT  number determines which service or program on that server it wants to use  (web page. FTP, email, etc.) 
 # • Very common port that everybody uses almost daily: port 80. associated with HTTP (Hypertext Transfer Protocol), which is web pages. 
-# 
+
+
+### Firewalls
+# system that is designed to prevent unauthorized access from entering a private network. block unwanted, permits wanted. | creates a safety barrier between a private network and the public internet.
+# firewalls use an access control list/ "rules" to verify if whatever trying to access it is allowed (leave or enter). rules can be based on. IP addresses, domain names. protocols, programs, ports & key words. 
+## types: Host-based firewall- software firewall that is installed on a computer; protects that computer only. , zone alarm, anti-virus programs, network based firewall (combo of hardware & software) & protects the entire network , 
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 #
 #
 #
